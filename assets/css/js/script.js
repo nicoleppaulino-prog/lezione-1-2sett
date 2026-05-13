@@ -12,6 +12,10 @@ punteggio = 5;
 console.log(punteggio);
 
 
+const mesi=document.getElementById('mesi');
+console.log(mesi);
+
+
 const userName = document.getElementById('userName');
 const sendName = document.getElementById('sendName');
 const regard = document.getElementById('regard');
@@ -25,18 +29,23 @@ name = userName.value;
 
 let eta = 20;
 
+
+
+if (eta >= 18) {
+    console.log("Pui entrare");
+}
+
+
+
+let et = 15;
 if (eta >= 18) {
     console.log("Puoi entrare");
 }
 
 
-let eta = 15;
 
-if (eta >= 18) {
-    console.log("Puoi entrare");
-}
-let eta = 15;
 
+let eta = 15;
 
 if (eta >= 18) {
     console.log("Maggiorenne");
